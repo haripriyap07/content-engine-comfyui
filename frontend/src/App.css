@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.card {
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background-color: #f9f9f9;
+  min-width: 300px;
+}
+
+.status {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.status.success {
+  color: #16a34a;
+}
+
+.status.loading {
+  color: #d97706;
+}
